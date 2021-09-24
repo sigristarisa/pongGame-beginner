@@ -1,5 +1,5 @@
 # pongGame - Beginner 
-Aufgabe ist es, das Game `Pong` zu programmieren. Dabei ist es das Ziel mit zufälliger Bewegung und User Input der Mouse ein simples Spiel zu entwickeln. 
+Aufgabe ist es, das Game `Pong` zu programmieren. Dabei wollen wir mit zufälliger Bewegung und User Input der Mouse ein simples Spiel entwickeln. Diese Grundbausteine werden uns später helfen ein eigenes Mouse-Game zu entwickeln. 
 
 Dieses Repository ist für diejenigen, die noch ein paar Hilfestellungen benötigen. 
 
