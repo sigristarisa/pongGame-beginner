@@ -3,7 +3,7 @@ Aufgabe für diese Woche ist es ein einfaches Mouse Game zu programmieren.
 Dieses Repository ist für diejenigen, die noch ein paar Hilfestellungen benötigen. 
 
 ## Pong Game
-![](/img/pong.jpg) ![](/img/pong2.jpg)
+![](/img/pong2.jpg)
 
 Pong wurde 1972 von Atari veröffentlich und wurde schnell zu einem großen Erfolg und das erste kommerziell erfolgreiche Spiel. Heute gilt Pong als das Spiel, mit dem die Videospielindustrie ihren Anfang nahm.
 
