@@ -8,7 +8,7 @@ Dieses Repository ist für diejenigen, die noch ein paar Hilfestellungen benöti
 
 Pong wurde 1972 von Atari veröffentlich und das erste kommerziell erfolgreiche Spiel. Heute gilt Pong als das Spiel, mit dem die Videospielindustrie ihren Anfang nahm.
 
-Das Spielprinzip von Pong ist simpel: Ein Punkt („Ball“) bewegt sich auf dem Bildschirm hin und her. Jeder der beiden Spieler steuert einen senkrechten Strich („Schläger“), den er mit einem Balken (Paddle) nach oben und unten verschieben kann. Lässt man den „Ball“ am „Schläger“ vorbei, erhält der Gegner einen Punkt.[Original Atari PONG (1972](https://www.youtube.com/watch?v=fiShX2pTz9A)
+Das Spielprinzip von Pong ist simpel: Ein Punkt („Ball“) bewegt sich auf dem Bildschirm hin und her. Jeder der beiden Spieler steuert einen senkrechten Strich („Schläger“), den er mit einem Balken (Paddle) nach oben und unten verschieben kann. Lässt man den „Ball“ am „Schläger“ vorbei, erhält der Gegner einen Punkt. [Original Atari PONG (1972)](https://www.youtube.com/watch?v=fiShX2pTz9A)
 
 Wir werden zuerst ein einfaches Pong programmieren, bei dem wir gegen den Computer spielen. 
 
