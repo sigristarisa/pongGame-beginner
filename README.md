@@ -24,10 +24,10 @@ Nachdem ihr ein Repository erstellt habt, müsst ihr noch 3 Dateien erstellen un
 2. `pong.js` -> Hier schreiben wir die Spiellogik bzw. den Code
 3. `style.css` -> Hier sind die Styles für das html-file definiert
 
-#### Hilfestellungen
+### Hilfestellungen
 Ihr findet die Hilfestellungen in der Datei `pong.js`. Kopiert euch diese direkt in eurer Projekt oder schaut nach, wenn ihr ein paar Tipps braucht. 
 
-#### Pong Game anzeigen 
+### Pong Game anzeigen 
 Um zu sehen was ihr programmmiert habt, öffnet ihr die index.html Datei in eurem Browser (Rechtsklick oder Drag'n'Drop). 
 Dies könnte dann so aussehen: 
 ![](/img/index.jpg)
