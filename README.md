@@ -12,7 +12,7 @@ Das Spielprinzip von Pong ist simpel: Ein Punkt (Ball) bewegt sich auf dem Bilds
 
 Wir werden zuerst ein einfaches Pong programmieren bei dem wir gegen den Computer spielen. 
 
-#### Setup
+## Setup
 ![](/img/code.png)
 1. Als Erstes müsst ihr ein eigenes Repository auf Github erstellen (nur eine Person). 
 2. Danach müsst ihr dieses noch auf GitHub für die zweite Person freigeben unter `Settings-> Manage Access -> Direct Access -> Invite Members`
