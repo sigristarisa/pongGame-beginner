@@ -6,11 +6,9 @@ Aufgabe ist es, das Game `Pong` zu programmieren. Dabei wollen wir mit zufällig
 ## Pong Game
 ![](/img/pong.png)
 
-Pong wurde 1972 von Atari veröffentlich und war das erste kommerziell erfolgreiche Spiel. Heute gilt Pong als das Spiel, mit dem die Videospielindustrie ihren Anfang nahm.
+Pong wurde 1972 von Atari veröffentlicht und war das erste kommerziell erfolgreiche Spiel. Heute gilt Pong als das Spiel, mit dem die Videospielindustrie ihren Anfang nahm.
 
-Das Spielprinzip von Pong ist simpel: Ein Punkt (Ball) bewegt sich auf dem Bildschirm hin und her. Jeder der beiden Spieler steuert einen senkrechten Strich (Schläger), den er mit einem Balken (Paddle) nach oben und unten verschieben kann. Lässt man den Ball am Schläger vorbei, erhält der Gegner einen Punkt. [Original Atari PONG (1972)](https://www.youtube.com/watch?v=fiShX2pTz9A)
-
-Wir werden zuerst ein einfaches Pong programmieren bei dem wir gegen den Computer spielen. 
+Das Spielprinzip von Pong ist simpel: Ein Punkt (Ball) bewegt sich auf dem Bildschirm hin und her. Jeder der beiden Spieler\*innen steuert einen senkrechten Strich (Schläger), den er mit einem Balken (Paddle) nach oben und unten verschieben kann. Lässt man den Ball am Schläger vorbei, erhält der/die Gegner\*in einen Punkt. [Original Atari PONG (1972)](https://www.youtube.com/watch?v=fiShX2pTz9A)
 
 ## Setup
 ![](/img/code.png)
@@ -36,4 +34,4 @@ Dies könnte dann so aussehen:
 Falls ihr möchtet, könnt ihr euer Pong Game beliebig erweitern oder verändern. Ihr seid nicht an den Stil der 70er Jahre gebunden.
 * Versucht euren eigenen Stil dem Pong Game hinzuzufügen (Bsp. verschwommene Bewegungen, der Ball zeichnet eine Spur, bunte Farben, etc.)
 * Lasst den Ball immer schneller und das Spiel somit immer schwieriger werden.
-* Programmiert einen Gegenspieler\*in. Der Einfachheit halber ist diese*r Gegenspieler\*in "dumm" und wird ebenfalls von euch bedient. 
+* Programmiert einen Gegenspieler\*in. Der Einfachheit halber ist diese\*r Gegenspieler\*in "dumm" und wird ebenfalls von euch bedient. 
