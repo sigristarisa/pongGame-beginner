@@ -34,4 +34,4 @@ Dies könnte dann so aussehen:
 Falls ihr möchtet, könnt ihr euer Pong Game beliebig erweitern oder verändern. Ihr seid nicht an den Stil der 70er Jahre gebunden.
 * Versucht euren eigenen Stil dem Pong Game hinzuzufügen (Bsp. verschwommene Bewegungen, der Ball zeichnet eine Spur, bunte Farben, etc.)
 * Lasst den Ball immer schneller und das Spiel somit immer schwieriger werden.
-* Programmiert einen Gegenspieler\*in. Der Einfachheit halber ist diese\*r Gegenspieler\*in "dumm" und wird ebenfalls von euch bedient. 
+* Programmiert einen Gegenspieler\*in. Der Einfachheit halber wird diese\*r Gegenspieler\*in ebenfalls von euch bedient. 
