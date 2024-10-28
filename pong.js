@@ -1,35 +1,52 @@
-var xBall = Math.floor(Math.random() * 300) + 50;
-var yBall = 50;
-var xSpeed = (2, 7);
-var ySpeed = (-7, -2);
-var score = 0
+let xBall = Math.floor(Math.random() * 300) + 50;
+let yBall = 50;
+let xSpeed = Math.random() * 5 + 2; // Random speed between 2 and 7
+let ySpeed = -(Math.random() * 5 + 2); // Random speed between -7 and -2
+let score = 0;
+let paddleWidth = 90;
+let paddleHeight = 15;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-  // Background
   background(0);
   fill(255);
-  
-  // Score
-  textSize(24);
-  text("Score: " + score, 10, 25);
 
+  // Paddle
+  let paddleX = mouseX - paddleWidth / 2; // Center paddle on the mouse
+  rect(paddleX, windowHeight - paddleHeight, paddleWidth, paddleHeight);
 
-  rect(0,windowHeight-15, 90, 15);
-  // TO DO 1: Bringe den Balken dazu der Maus auf der x-Achse zu folgen. 
-
+  // Ball
   xBall += xSpeed;
-  ellipse(xBall, windowHeight/2, 20, 20);
-  // TO DO 2: Schaffst du es, dass sich der Ball frei bewegt?
+  yBall += ySpeed;
+  ellipse(xBall, yBall, 20, 20);
 
-  if(xBall>windowWidth-10){
+  // Bounce off walls
+  if (xBall > windowWidth - 10 || xBall < 10) {
     xSpeed *= -1;
-  } 
-  // TO DO 3: Lass den Ball von den Seitenrändern abprallen (windowWidth/windowHeight)
+  }
+  if (yBall < 10) {
+    ySpeed *= -1;
+  }
 
-  // TO DO 4: Lass den Ball vom Balken aprallen, falls sie sich berühren
+  // Bounce off paddle
+  if (
+    yBall + 10 >= windowHeight - paddleHeight &&
+    xBall > paddleX &&
+    xBall < paddleX + paddleWidth
+  ) {
+    ySpeed *= -1;
+    score++; // Increase score on paddle bounce
+  }
 
+  // Reset if ball goes off the bottom
+  if (yBall > windowHeight) {
+    xBall = Math.floor(Math.random() * 300) + 50;
+    yBall = 50;
+    xSpeed = Math.random() * 5 + 2;
+    ySpeed = -(Math.random() * 5 + 2);
+    score = 0; // Reset score
+  }
 }
